@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-first-project';
+  title = 'Welcome to wonder Land';
+  totalSum = 2+4;
+  subtraction = 4-2;
+  isShown = false;
+  users = ['Tom', 'Jerry', 'Bull']; 
 }
